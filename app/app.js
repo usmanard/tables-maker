@@ -7,7 +7,7 @@ function tableGenerator() {
     tableTitle.innerText = "Please enter a valid number";
     tableBody.innerText = "";
   } else {
-    for (let counter = 1; counter <= 10; counter++) {
+    for (let counter = 1; counter <= 20; counter++) {
       // console.log(
       //   theNumber.value + " * " + counter + " = " + theNumber.value * counter
       // );
