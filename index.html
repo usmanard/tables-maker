@@ -9,9 +9,24 @@
   <body>
     <h1 class="title">Tables Maker</h1>
     <form class="table-form">
-      <label class="table-text" for="table">Which table do you want? </label>
-      <input class="table-number" type="number" name="table" id="table" />
-      <button type="button" class="btn" onclick="tableGenerator()">
+      <label class="form-text" for="form-table"
+        >Which table do you want?
+      </label>
+      <input
+        class="table-number"
+        type="number"
+        name="form-table"
+        id="form-table"
+      />
+      <br />
+      <label class="form-text" for="form-multiplier">How many times? </label>
+      <input
+        class="table-number"
+        type="number"
+        name="form-multiplier"
+        id="form-multiplier"
+      />
+      <button type="button" class="btn" id="btn" onclick="tableGenerator()">
         Make Table
       </button>
     </form>
